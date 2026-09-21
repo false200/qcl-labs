@@ -1,0 +1,15 @@
+[project]
+name = "qcl"
+version = "0.1.0"
+description = "Quantum Computing Lab (23AID303) — Qiskit environment"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "notebook>=7.6.2",
+    "pylatexenc>=2.11",
+    "qiskit>=2.5.2",
+    "qiskit-aer>=0.17.2",
+]
